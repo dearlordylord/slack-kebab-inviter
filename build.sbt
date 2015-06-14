@@ -8,6 +8,7 @@ scalacOptions := Seq("-unchecked", "-feature", "-deprecation", "-encoding", "utf
 
 resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases"
 resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
+resolvers += Resolver.typesafeRepo("releases")
 
 libraryDependencies ++= {
   val scalazV          = "7.2.0-M1"
