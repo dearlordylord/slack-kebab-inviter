@@ -1,0 +1,5 @@
+.idea/
+target/
+.sbtserver/
+activator
+activator-launch-*
