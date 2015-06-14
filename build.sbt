@@ -34,6 +34,7 @@ scalariformSettings
 Revolver.settings
 enablePlugins(JavaAppPackaging)
 
+
 ScalariformKeys.preferences := ScalariformKeys.preferences.value
   .setPreference(AlignSingleLineCaseStatements, true)
   .setPreference(AlignSingleLineCaseStatements.MaxArrowIndent, 100)
