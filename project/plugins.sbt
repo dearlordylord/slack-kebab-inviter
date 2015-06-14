@@ -1,4 +1,8 @@
 resolvers += Classpaths.sbtPluginReleases
+resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases"
+resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
+resolvers += Resolver.typesafeRepo("releases")
+resolvers += "Typesafe repository mwn" at "http://repo.typesafe.com/typesafe/maven-releases/"
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.3.0")
 addSbtPlugin("com.sksamuel.scapegoat" %% "sbt-scapegoat" % "1.0.0")
@@ -8,3 +12,4 @@ addSbtPlugin("io.spray" %% "sbt-revolver" % "0.7.2")
 addSbtPlugin("com.typesafe.sbt" %% "sbt-native-packager" % "1.0.2")
 
 addSbtPlugin("com.heroku" % "sbt-heroku" % "0.4.3")
+
